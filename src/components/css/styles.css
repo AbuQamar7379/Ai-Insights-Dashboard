@@ -1,0 +1,27 @@
+.chartParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.times {
+  display: flex;
+}
+
+.text {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .recharts-wrapper {
+    width: 85vw !important;
+    height: 300px !important;
+  }
+  .recharts-legend-wrapper {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .times {
+    flex-direction: column;
+  }
+}
